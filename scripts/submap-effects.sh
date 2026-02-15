@@ -3,9 +3,9 @@
 case "$1" in
     leader)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(ccddffee) ;\
+            keyword general:col.active_border rgba(ffd599ee) ;\
             keyword general:col.inactive_border rgba(00000000) ;\
-            keyword decoration:shadow:color rgba(ccddff66) ;\
+            keyword decoration:shadow:color rgba(ffd59966) ;\
             keyword decoration:shadow:range 10 ;\
             keyword decoration:shadow:render_power 2"
         ;;
@@ -19,9 +19,9 @@ case "$1" in
         ;;
     navigation)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(4499ffee) rgba(33bbffee) 45deg ;\
+            keyword general:col.active_border rgba(ff5577ee) rgba(dd3355ee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
-            keyword decoration:shadow:color rgba(4499ff77) ;\
+            keyword decoration:shadow:color rgba(ff557777) ;\
             keyword decoration:shadow:range 20 ;\
             keyword decoration:shadow:render_power 2"
         ;;
