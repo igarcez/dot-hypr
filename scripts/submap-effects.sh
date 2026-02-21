@@ -72,7 +72,7 @@ case "$1" in
             keyword decoration:shadow:color rgba(1a1a1aee) ;\
             keyword decoration:shadow:range 4 ;\
             keyword decoration:shadow:render_power 3 ;\
-            keyword general:border_size 3 ;\
+            keyword general:border_size 8 ;\
             keyword general:gaps_in 2 ;\
             keyword general:gaps_out 2 ;\
             keyword animation borderangle,1,5.39,easeOutQuint"
