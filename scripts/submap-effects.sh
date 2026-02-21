@@ -3,37 +3,37 @@
 case "$1" in
     leader)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(ffd599ee) rgba(ff6600ee) 45deg ;\
+            keyword general:col.active_border rgba(ff6600ee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 8 ;\
             keyword decoration:shadow:color rgba(ffd59988) ;\
             keyword decoration:shadow:range 15 ;\
             keyword decoration:shadow:render_power 2 ;\
-            keyword animation borderangle,1,8,linear,loop"
+            keyword animation borderangle,1,10,linear,loop"
         ;;
     apps)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(00ff88ee) rgba(00ccffee) 45deg ;\
+            keyword general:col.active_border rgba(00ff88ee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 8 ;\
             keyword decoration:shadow:color rgba(00ff8899) ;\
             keyword decoration:shadow:range 25 ;\
             keyword decoration:shadow:render_power 2 ;\
-            keyword animation borderangle,1,20,linear,loop"
+            keyword animation borderangle,1,10,linear,loop"
         ;;
     navigation)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(ff5577ee) rgba(ff00aaee) 45deg ;\
+            keyword general:col.active_border rgba(ff5577ee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 8 ;\
             keyword decoration:shadow:color rgba(ff557799) ;\
             keyword decoration:shadow:range 25 ;\
             keyword decoration:shadow:render_power 2 ;\
-            keyword animation borderangle,1,14,linear,loop"
+            keyword animation borderangle,1,10,linear,loop"
         ;;
     movement)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(ff6633ee) rgba(ffcc00ee) 45deg ;\
+            keyword general:col.active_border rgba(ff6633ee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 8 ;\
             keyword decoration:shadow:color rgba(ff663399) ;\
@@ -45,7 +45,7 @@ case "$1" in
         ;;
     layout)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(bb55ffee) rgba(5500ffee) 45deg ;\
+            keyword general:col.active_border rgba(bb55ffee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 10 ;\
             keyword decoration:shadow:color rgba(bb55ff99) ;\
@@ -53,17 +53,17 @@ case "$1" in
             keyword decoration:shadow:render_power 2 ;\
             keyword general:gaps_in 5 ;\
             keyword general:gaps_out 5 ;\
-            keyword animation borderangle,1,6,linear,loop"
+            keyword animation borderangle,1,10,linear,loop"
         ;;
     service)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(ffdd00ee) rgba(ff8800ee) 45deg ;\
+            keyword general:col.active_border rgba(ffdd00ee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 8 ;\
             keyword decoration:shadow:color rgba(ffcc0099) ;\
             keyword decoration:shadow:range 25 ;\
             keyword decoration:shadow:render_power 2 ;\
-            keyword animation borderangle,1,30,linear,loop"
+            keyword animation borderangle,1,10,linear,loop"
         ;;
     reset)
         hyprctl --batch "\
@@ -75,6 +75,6 @@ case "$1" in
             keyword general:border_size 8 ;\
             keyword general:gaps_in 2 ;\
             keyword general:gaps_out 2 ;\
-            keyword animation borderangle,1,5.39,easeOutQuint"
+            keyword animation borderangle,1,100,linear,loop"
         ;;
 esac
