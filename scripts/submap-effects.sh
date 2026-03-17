@@ -33,14 +33,12 @@ case "$1" in
         ;;
     movement)
         hyprctl --batch "\
-            keyword general:col.active_border rgba(ff6633ee) rgba(ffffffee) 45deg ;\
+            keyword general:col.active_border rgba(00ccffee) rgba(ffffffee) 45deg ;\
             keyword general:col.inactive_border rgba(00000000) ;\
             keyword general:border_size 8 ;\
-            keyword decoration:shadow:color rgba(ff663399) ;\
+            keyword decoration:shadow:color rgba(00ccff99) ;\
             keyword decoration:shadow:range 25 ;\
             keyword decoration:shadow:render_power 2 ;\
-            keyword general:gaps_in 5 ;\
-            keyword general:gaps_out 5 ;\
             keyword animation borderangle,1,10,linear,loop"
         ;;
     layout)
